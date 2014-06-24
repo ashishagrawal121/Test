@@ -11,6 +11,7 @@
 		9D8CC2E71910F83600C32803 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8CC2E61910F83600C32803 /* sample.png */; };
 		9D9C58DC1917C34F0076BE39 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C58DB1917C34F0076BE39 /* TestViewController.m */; };
 		9D9C58DF1917C45A0076BE39 /* AutolayoutScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C58DE1917C45A0076BE39 /* AutolayoutScrollView.m */; };
+		9DB4E94A19597AAA00629D92 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4E94919597AAA00629D92 /* TestAViewController.m */; };
 		9DB7CC9A1912299B001256A1 /* ScrollViewAutolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7CC991912299B001256A1 /* ScrollViewAutolayout.m */; };
 		9DD5C8C618F8104B00682361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD5C8C518F8104B00682361 /* Foundation.framework */; };
 		9DD5C8C818F8104B00682361 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD5C8C718F8104B00682361 /* CoreGraphics.framework */; };
@@ -57,6 +58,8 @@
 		9D9C58DB1917C34F0076BE39 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		9D9C58DD1917C45A0076BE39 /* AutolayoutScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutScrollView.h; sourceTree = "<group>"; };
 		9D9C58DE1917C45A0076BE39 /* AutolayoutScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutScrollView.m; sourceTree = "<group>"; };
+		9DB4E94819597AAA00629D92 /* TestAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAViewController.h; sourceTree = "<group>"; };
+		9DB4E94919597AAA00629D92 /* TestAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAViewController.m; sourceTree = "<group>"; };
 		9DB7CC981912299B001256A1 /* ScrollViewAutolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewAutolayout.h; sourceTree = "<group>"; };
 		9DB7CC991912299B001256A1 /* ScrollViewAutolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewAutolayout.m; sourceTree = "<group>"; };
 		9DD5C8C218F8104B00682361 /* test app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +184,8 @@
 				9D9C58DB1917C34F0076BE39 /* TestViewController.m */,
 				9D9C58DD1917C45A0076BE39 /* AutolayoutScrollView.h */,
 				9D9C58DE1917C45A0076BE39 /* AutolayoutScrollView.m */,
+				9DB4E94819597AAA00629D92 /* TestAViewController.h */,
+				9DB4E94919597AAA00629D92 /* TestAViewController.m */,
 			);
 			path = "test app";
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB4E94A19597AAA00629D92 /* TestAViewController.m in Sources */,
 				9DD5C91918F8165F00682361 /* IQKeyboardManager.m in Sources */,
 				9DB7CC9A1912299B001256A1 /* ScrollViewAutolayout.m in Sources */,
 				9D9C58DC1917C34F0076BE39 /* TestViewController.m in Sources */,

@@ -12,6 +12,7 @@
 
 +(NSString *) uploadImageWithData:(NSMutableDictionary *)record image:(NSData *)imageData
 {
+    //test
 	NSString *urlString = @"http://localhost/WebService/UploadService.php";
 	NSURL *url = [NSURL URLWithString:urlString];
 	NSString *filename = @"file";
